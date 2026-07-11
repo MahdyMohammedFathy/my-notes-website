@@ -1,0 +1,30 @@
+/* استدعاء خط كايرو من جوجل ليعطي مظهر عصري واحترافي */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap');
+
+/* ضبط الاتجاه العام للكتاب ليكون من اليمين لليسار */
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+/* تنسيق العناوين الرئيسية والفرعية لتكون بارزة للطلاب */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif !important;
+    font-weight: 700;
+    color: #1e3a8a;
+    line-height: 1.5;
+}
+
+/* الحفاظ على اتجاه الأكواد البرمجية من اليسار لليمين */
+pre, code, .markdown-rendered code {
+    direction: ltr !important;
+    text-align: left !important;
+    font-family: 'Consolas', 'Courier New', monospace !important;
+}
+
+/* ضبط القوائم لتظهر بشكل صحيح مع العربي */
+ul, ol {
+    padding-right: 2em;
+    padding-left: 0;
+}
